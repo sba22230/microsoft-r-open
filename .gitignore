@@ -80,3 +80,5 @@ build/
 tools/
 packages/
 source/src/gnuwin32/front-ends/R.ico
+tcltk-5550-5412.zip
+misc-commands.sh
