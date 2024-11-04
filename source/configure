@@ -22415,11 +22415,15 @@ case "${host_os}" in
     Rshlibpath_var=${shlibpath_var}
 esac
 
-## Export LD_LIBRARY_PATH or equivalent.
-if eval "test -z \"\${${Rshlibpath_var}}\""; then
-  eval "${Rshlibpath_var}=\"${R_LD_LIBRARY_PATH}\""
+# ## Export LD_LIBRARY_PATH or equivalent.
+# if eval "test -z \"\${${Rshlibpath_var}}\""; then
+if eval "test -z \"\${Rshlibpath_var}\""; then
+
+
+ eval "${Rshlibpath_var}=\"${R_LD_LIBRARY_PATH}\""
 else
-  eval "${Rshlibpath_var}=\"${R_LD_LIBRARY_PATH}${PATH_SEPARATOR}\${${Rshlibpath_var}}\""
+   eval "${Rshlibpath_var}=\"${R_LD_LIBRARY_PATH}${PATH_SEPARATOR}\${${Rshlibpath_var}}\""
+
 fi
 eval "export ${Rshlibpath_var}"
 

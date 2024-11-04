@@ -78,8 +78,7 @@ R.fe: R.sh $(top_srcdir)/VERSION $(top_builddir)/SVN-REVISION
 	  v="$${v} ($${dat})"; \
 	  y=`$(ECHO) $${dat} | cut -d- -f1`; \
 	  d=`$(ECHO) "$(abs_top_builddir)" | sed 's,/,\\\/,g'`; \
-	  sed "1,/R_HOME_DIR/s/\\(R_HOME_DIR=\\).*/\\1\"$${d}\"/; \
-	       s@REPLACE_BY_VERSION@$${v}@; \
+	  sed "s@REPLACE_BY_VERSION@$${v}@; \
 	       s@REPLACE_BY_YEAR@$${y}@" < R.sh > $@)
 	@chmod +x $@
 ## </NOTE>
@@ -89,12 +88,7 @@ $(top_builddir)/libtool:
 
 install: installdirs install-cmds
 	@rm -f $(DESTDIR)$(bindir)/R
-	@(d=`$(ECHO) '$(rhome)' | sed 's,/,\\\/,g';`; \
-	  d2=`$(ECHO) '$(rsharedir)' | sed 's,/,\\\/,g';`; \
-	  d3=`$(ECHO) '$(rincludedir)' | sed 's,/,\\\/,g';`; \
-	  d4=`$(ECHO) '$(rdocdir)' | sed 's,/,\\\/,g';`; \
-	  sed -e "1,/R_HOME_DIR=/s/\\(R_HOME_DIR=\\).*/\\1$${d}/;" -e "s/\\(R_SHARE_DIR=\\).*/\\1$${d2}/;" -e  "s/\\(R_INCLUDE_DIR=\\).*/\\1$${d3}/;" -e "s/\\(R_DOC_DIR=\\).*/\\1$${d4}/;"\
-	  < R.fe > "$(DESTDIR)$(Rexecbindir)/R")
+	@cat < R.fe > "$(DESTDIR)$(Rexecbindir)/R"
 	@$(INSTALL_SCRIPT)  "$(DESTDIR)$(Rexecbindir)/R" "$(DESTDIR)$(bindir)/R"
 	@chmod 755 "$(DESTDIR)$(bindir)/R" "$(DESTDIR)$(Rexecbindir)/R"
 ## why of all the scripts does this alone chmod just one copy?

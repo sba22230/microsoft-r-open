@@ -1,0 +1,27 @@
+--- source/src/unix/Rscript.c	2016-08-22 09:57:47.904614318 -0700
++++ patched-source/src/unix/Rscript.c	2016-08-22 10:00:38.618228737 -0700
+@@ -75,7 +75,7 @@
+ #define R_ARCH ""
+ #endif
+ 
+-static char rhome[] = R_HOME;
++static char rhome[PATH_MAX] = {0};
+ static char rarch[] = R_ARCH;
+ #else
+ # ifndef BINDIR
+@@ -143,7 +143,14 @@
+ 	snprintf(cmd, PATH_MAX+1, "%s\\Rterm.exe",  rhome);
+     }
+ #else
+-    if(!(p && *p)) p = rhome;
++    if(!(p && *p)) {
++        readlink("/proc/self/exe", rhome, sizeof(rhome));
++        p = strrchr(rhome,'/');
++        *p = '\0';
++        p = strrchr(rhome,'/');
++        *p = '\0';
++        p = rhome;
++    }
+     /* avoid snprintf here */
+     if(strlen(p) + 6 > PATH_MAX) {
+ 	fprintf(stderr, "impossibly long path for RHOME\n");

@@ -1,0 +1,601 @@
+mlutils.o: mlutils.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+d1mach.o: d1mach.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+i1mach.o: i1mach.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+fmax2.o: fmax2.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+fmin2.o: fmin2.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+fprec.o: fprec.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+fround.o: fround.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+ftrunc.o: ftrunc.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+sign.o: sign.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+fsign.o: fsign.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+imax2.o: imax2.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+imin2.o: imin2.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+chebyshev.o: chebyshev.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+log1p.o: log1p.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+expm1.o: expm1.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+lgammacor.o: lgammacor.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+gammalims.o: gammalims.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+stirlerr.o: stirlerr.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+bd0.o: bd0.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+gamma.o: gamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+lgamma.o: lgamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+gamma_cody.o: gamma_cody.c nmath.h ../include/config.h \
+ ../include/Rconfig.h ../include/Rmath.h ../include/R_ext/Boolean.h \
+ ../include/R_ext/RS.h ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+beta.o: beta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+lbeta.o: lbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+polygamma.o: polygamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+cospi.o: cospi.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+bessel_i.o: bessel_i.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h bessel.h ../include/R_ext/Memory.h
+bessel_j.o: bessel_j.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h bessel.h ../include/R_ext/Memory.h
+bessel_k.o: bessel_k.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h bessel.h ../include/R_ext/Memory.h
+bessel_y.o: bessel_y.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h bessel.h ../include/R_ext/Memory.h
+choose.o: choose.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+snorm.o: snorm.c ../include/R_ext/Random.h ../include/R_ext/Boolean.h \
+ nmath.h ../include/config.h ../include/Rconfig.h ../include/Rmath.h \
+ ../include/R_ext/RS.h ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+sexp.o: sexp.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dgamma.o: dgamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pgamma.o: pgamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qgamma.o: qgamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rgamma.o: rgamma.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dbeta.o: dbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pbeta.o: pbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qbeta.o: qbeta.c ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ nmath.h ../include/config.h ../include/Rconfig.h ../include/Rmath.h \
+ ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h ../include/libintl.h \
+ dpq.h
+rbeta.o: rbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dunif.o: dunif.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+punif.o: punif.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qunif.o: qunif.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+runif.o: runif.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dnorm.o: dnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnorm.o: pnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnorm.o: qnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rnorm.o: rnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dlnorm.o: dlnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+plnorm.o: plnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qlnorm.o: qlnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rlnorm.o: rlnorm.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+df.o: df.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pf.o: pf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qf.o: qf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rf.o: rf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dnf.o: dnf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+dt.o: dt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pt.o: pt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qt.o: qt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rt.o: rt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dnt.o: dnt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+dchisq.o: dchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pchisq.o: pchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qchisq.o: qchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rchisq.o: rchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+rnchisq.o: rnchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dbinom.o: dbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pbinom.o: pbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qbinom.o: qbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rbinom.o: rbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rmultinom.o: rmultinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dcauchy.o: dcauchy.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pcauchy.o: pcauchy.c ../include/config.h nmath.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qcauchy.o: qcauchy.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rcauchy.o: rcauchy.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dexp.o: dexp.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pexp.o: pexp.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qexp.o: qexp.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rexp.o: rexp.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dgeom.o: dgeom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pgeom.o: pgeom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qgeom.o: qgeom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rgeom.o: rgeom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dhyper.o: dhyper.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+phyper.o: phyper.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qhyper.o: qhyper.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rhyper.o: rhyper.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+dnbinom.o: dnbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnbinom.o: pnbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnbinom.o: qnbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rnbinom.o: rnbinom.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dpois.o: dpois.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+ppois.o: ppois.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qpois.o: qpois.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rpois.o: rpois.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dweibull.o: dweibull.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pweibull.o: pweibull.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qweibull.o: qweibull.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rweibull.o: rweibull.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dlogis.o: dlogis.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+plogis.o: plogis.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qlogis.o: qlogis.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+rlogis.o: rlogis.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h
+dnchisq.o: dnchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnchisq.o: pnchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnchisq.o: qnchisq.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+dnbeta.o: dnbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnbeta.o: pnbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnbeta.o: qnbeta.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnf.o: pnf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+pnt.o: pnt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnf.o: qnf.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qnt.o: qnt.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+ptukey.o: ptukey.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+qtukey.o: qtukey.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+toms708.o: toms708.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h
+wilcox.o: wilcox.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h ../include/R_ext/Utils.h \
+ ../include/R_ext/Complex.h
+signrank.o: signrank.c nmath.h ../include/config.h ../include/Rconfig.h \
+ ../include/Rmath.h ../include/R_ext/Boolean.h ../include/R_ext/RS.h \
+ ../include/R_ext/Error.h ../include/R_ext/Print.h \
+ ../include/R_ext/Arith.h ../include/R_ext/libextern.h \
+ ../include/libintl.h dpq.h

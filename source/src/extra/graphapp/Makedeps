@@ -1,0 +1,60 @@
+arith.o: arith.c graphapp.h ../../include/R_ext/libextern.h
+array.o: array.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+bitmaps.o: bitmaps.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+buttons.o: buttons.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+clipboard.o: clipboard.c ../../gnuwin32/win-nls.h ../../include/libintl.h \
+ internal.h ga.h graphapp.h ../../include/R_ext/libextern.h \
+ ../../gnuwin32/rui.h ../../include/R_ext/Boolean.h \
+ ../../include/R_ext/Error.h
+context.o: context.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+controls.o: controls.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+cursors.o: cursors.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+dialogs.o: dialogs.c ../../gnuwin32/win-nls.h ../../include/libintl.h \
+ internal.h ga.h graphapp.h ../../include/R_ext/libextern.h
+drawing.o: drawing.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+drawtext.o: drawtext.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+events.o: events.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+fonts.o: fonts.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+gbuttons.o: gbuttons.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+gdraw.o: gdraw.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+gif.o: gif.c internal.h ga.h graphapp.h ../../include/R_ext/libextern.h
+gimage.o: gimage.c ga.h graphapp.h ../../include/R_ext/libextern.h
+gmenus.o: gmenus.c ../../gnuwin32/win-nls.h ../../include/libintl.h \
+ internal.h ga.h graphapp.h ../../include/R_ext/libextern.h
+image.o: image.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+init.o: init.c internal.h ga.h graphapp.h ../../include/R_ext/libextern.h
+menus.o: menus.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+metafile.o: metafile.c ../../gnuwin32/win-nls.h ../../include/libintl.h \
+ internal.h ga.h graphapp.h ../../include/R_ext/libextern.h \
+ ../../gnuwin32/rui.h ../../include/R_ext/Boolean.h \
+ ../../include/R_ext/Error.h
+objects.o: objects.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+printer.o: printer.c ../../gnuwin32/win-nls.h ../../include/libintl.h \
+ internal.h ga.h graphapp.h ../../include/R_ext/libextern.h \
+ ../../gnuwin32/rui.h ../../include/R_ext/Boolean.h \
+ ../../include/R_ext/Error.h
+rgb.o: rgb.c ga.h graphapp.h ../../include/R_ext/libextern.h
+status.o: status.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+stdimg.o: stdimg.c graphapp.h ../../include/R_ext/libextern.h
+strings.o: strings.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+tooltips.o: tooltips.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h
+windows.o: windows.c internal.h ga.h graphapp.h \
+ ../../include/R_ext/libextern.h

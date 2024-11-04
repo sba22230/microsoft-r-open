@@ -75,7 +75,7 @@ R --slave --no-restore --vanilla --file=foo [script_args]
 #define R_ARCH ""
 #endif
 
-static char rhome[] = R_HOME;
+static char rhome[PATH_MAX] = {0};
 static char rarch[] = R_ARCH;
 #else
 # ifndef BINDIR
@@ -143,7 +143,14 @@ int main(int argc, char *argv[])
 	snprintf(cmd, PATH_MAX+1, "%s\\Rterm.exe",  rhome);
     }
 #else
-    if(!(p && *p)) p = rhome;
+    if(!(p && *p)) {
+        readlink("/proc/self/exe", rhome, sizeof(rhome));
+        p = strrchr(rhome,'/');
+        *p = '\0';
+        p = strrchr(rhome,'/');
+        *p = '\0';
+        p = rhome;
+    }
     /* avoid snprintf here */
     if(strlen(p) + 6 > PATH_MAX) {
 	fprintf(stderr, "impossibly long path for RHOME\n");
