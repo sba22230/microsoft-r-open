@@ -1,0 +1,42 @@
+--- source/src/scripts/R.sh.in	2016-08-22 09:57:47.896614429 -0700
++++ patched-source/src/scripts/R.sh.in	2016-08-22 10:03:12.008084670 -0700
+@@ -1,30 +1,15 @@
+ #!@R_SHELL@
+ # Shell wrapper for R executable.
+ 
+-R_HOME_DIR=
+-if test "${R_HOME_DIR}" = "@prefix@/@LIBnn@/R"; then
+-   case "@R_OS@" in
+-   linux*)
+-     run_arch=`uname -m`
+-     case "$run_arch" in
+-        x86_64|mips64|ppc64|powerpc64|sparc64|s390x)
+-          libnn=lib64
+-          libnn_fallback=lib
+-        ;;
+-        *)
+-          libnn=lib
+-          libnn_fallback=lib64
+-        ;;
+-     esac
+-     if [ -x "@prefix@/${libnn}/R/bin/exec/R" ]; then
+-        R_HOME_DIR="@prefix@/${libnn}/R"
+-     elif [ -x "@prefix@/${libnn_fallback}/R/bin/exec/R" ]; then
+-        R_HOME_DIR="@prefix@/${libnn_fallback}/R"
+-     ## else -- leave alone (might be a sub-arch)
+-     fi
+-     ;;
+-  esac
+-fi
++SOURCE="${BASH_SOURCE[0]}"
++while [ -h "$SOURCE" ]; do
++  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
++  SOURCE="$(readlink "$SOURCE")"
++  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
++done
++DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
++R_HOME_DIR=$(dirname ${DIR})
++
+ 
+ if test -n "${R_HOME}" && \
+    test "${R_HOME}" != "${R_HOME_DIR}"; then
